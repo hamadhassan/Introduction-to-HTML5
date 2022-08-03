@@ -9,35 +9,71 @@
 	<script src="https://kit.fontawesome.com/c9e9e10a0d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<h1>Introdution to HTML5</h1>
+
+	<header>
+		<h1>Introdution to HTML5</h1>
+	</header>
 	<main>
-		<p> This is my main code</p>
+		<div>
+			<li><a href="#hyperlink"> Hyper-link</a></li>
+			<li><a href="#FontAwesome"> FontAwesome</a></li>
+			<li><a href="#Image">Image</a></li>
+			<li><a href="#footer"> Footer</a></li>
+		</div>
+		
+		<div id="hyperlink">
+
+			<h2>Hyper Link</h2>
+			<a href="https://github.com/hamadhassan" target="_blank">  Github</a>
+			<p>Order List</p>
+			<ol>
+				<li><a href=""> Ali</a></li>
+				<li><a href="">Hassan</a></li>
+			</ol>
+
+			<p>Unorder List</p>
+			<ul>
+				<li><a href="">Ali</a></li>
+				<li><a href="">Hassan</a></li>
+			</ul>
+
+			<p>Without list</p>
+			&nbsp;	<li> <a href="">Hassan</a></li>
+			
+		</div>
+
+		<div id="FontAwesome">
+
+			<h2> Font Awesome </h2>
+			<i class="fa-solid fa-computer fa-xs"></i>
+			<i class="fa-solid fa-computer fa-md"></i>
+			<i class="fa-solid fa-computer fa-lg"></i>
+			<i class="fa-solid fa-computer fa-1x"></i>
+			<i class="fa-solid fa-computer fa-2x"></i>
+			<i class="fa-solid fa-computer fa-3x"></i>
+			<i class="fa-solid fa-computer fa-5x"></i>
+			<i class="fa-solid fa-computer fa-10x"></i>
+			<br>
+			<a href="https://fontawesome.com/icons/computer?s=regular" aria-label="Font Awesome link "> <i class="fa-solid fa-magnifying-glass"></i></a>
+		
+		</div>
+
+		<div id="Image">
+			<h2> Image Tag</h2>
+			<figure>
+				<img src="Images/wallpaper.jpg" width="50%" alt="wallpaper">
+				<figcaption>Using width property</figcaption>
+			</figure>
+			<figure>
+				<img src="Images/wallpaper.jpg" width="50%" height="80%" alt="wallpaper">
+				<figcaption>Using width and height property</figcaption>
+			</figure>
+
+		</div>
+
 	</main>
-	<div>
-		<h2> Font Awesome </h2>
-		<i class="fa-solid fa-computer fa-xs"></i>
-		<i class="fa-solid fa-computer fa-md"></i>
-		<i class="fa-solid fa-computer fa-lg"></i>
-		<i class="fa-solid fa-computer fa-1x"></i>
-		<i class="fa-solid fa-computer fa-2x"></i>
-		<i class="fa-solid fa-computer fa-3x"></i>
-		<i class="fa-solid fa-computer fa-5x"></i>
-		<i class="fa-solid fa-computer fa-10x"></i>
-		<br>
-		<a href="https://fontawesome.com/icons/computer?s=regular" aria-label="Font Awesome link "> <i class="fa-solid fa-magnifying-glass"></i></a>
-	</div>
-	<div>
-		<figure>
-			<img src="Images/wallpaper.jpg" width="50%" alt="wallpaper">
-			<figcaption>Using width property</figcaption>
-		</figure>
-		<figure>
-			<img src="Images/wallpaper.jpg" width="50%" height="80%" alt="wallpaper">
-			<figcaption>Using width and height property</figcaption>
-		</figure>
-	</div>
 	
-	<footer>
+	<footer id="footer">
 		<p> This is more interseting footer</p>
 	</footer>
 </body>
