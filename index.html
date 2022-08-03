@@ -5,96 +5,52 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<!--Link to Font Awesome CDN- Content Delivery Network-->
-	<script src="https://kit.fontawesome.com/c9e9e10a0d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
 	<header>
-		<h1>Introdution to HTML5</h1>
+		<h1>Assignment</h1>
+		<nav>
+			<a href="">One</a>
+			<a href="">Two</a>
+			<a href="">Three</a>
+			<a href="">Four</a>
+		</nav>
 	</header>
 	<main>
-	
-		<div>
-			<li><a href="#table">Table</a></li>
-			<li><a href="#multimedia">Multimedia</a></li>
-			<li><a href="#hyperlink"> Hyper-link</a></li>
-			<li><a href="#FontAwesome"> FontAwesome</a></li>
-			<li><a href="#Image">Image</a></li>
-			<li><a href="#footer"> Footer</a></li>
-		</div>
-
-		<div id="table">
-			<h2>Table</h2>
-			<table border="1">
-				<tr><th>Col-1</th> <th>Col-2</th> <th>Col-3</th></tr>
-				<tr><td>One</td> <td>Two</td> <td>Three</td></tr>
-				<tr><td>four</td> <td>five</td> <td>Six</td></tr>
-			</table>
-		</div>
-		<div id="multimedia">
-			<h2>Multimedia</h2>
-			<!--<iframe width="560" height="315"  src="https://www.youtube.com/embed/Ui3aBfCa3Ok"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->	
-			<video src="multimedia/TicTakToe.mp4" width="560" height="315"  muted controls></video>
-			<br>
-			<audio src="multimedia/Cafe Regrette - Asher Fulero.mp3" controls> Cafe Regretter</audio>
-			<p>Setting Clip</p>
-			<audio src="multimedia/Cafe Regrette - Asher Fulero.mp3#t=5,25" controls> Cafe Regretter</audio>
-		</div>
-		<div id="hyperlink">
-
-			<h2>Hyper Link</h2>
-			<a href="https://github.com/hamadhassan" target="_blank">  Github</a>
-			<p>Order List</p>
-			<ol>
-				<li><a href=""> Ali</a></li>
-				<li><a href="">Hassan</a></li>
-			</ol>
-
-			<p>Unorder List</p>
-			<ul>
-				<li><a href="">Ali</a></li>
-				<li><a href="">Hassan</a></li>
-			</ul>
-
-			<p>Without list</p>
-			<li> <a href="">Hassan</a></li>
-			
-		</div>
-
-		<div id="FontAwesome">
-
-			<h2> Font Awesome </h2>
-			<i class="fa-solid fa-computer fa-xs"></i>
-			<i class="fa-solid fa-computer fa-md"></i>
-			<i class="fa-solid fa-computer fa-lg"></i>
-			<i class="fa-solid fa-computer fa-1x"></i>
-			<i class="fa-solid fa-computer fa-2x"></i>
-			<i class="fa-solid fa-computer fa-3x"></i>
-			<i class="fa-solid fa-computer fa-5x"></i>
-			<i class="fa-solid fa-computer fa-10x"></i>
-			<br>
-			<a href="https://fontawesome.com/icons/computer?s=regular" aria-label="Font Awesome link "> <i class="fa-solid fa-magnifying-glass"></i></a>
-		
-		</div>
-
-		<div id="Image">
-			<h2> Image Tag</h2>
-			<figure>
-				<img src="Images/wallpaper.jpg" width="50%" alt="wallpaper">
-				<figcaption>Using width property</figcaption>
-			</figure>
-			<figure>
-				<img src="Images/wallpaper.jpg" width="50%" height="80%" alt="wallpaper">
-				<figcaption>Using width and height property</figcaption>
-			</figure>
-
-		</div>
-
+	<div>
+		<h2>Favorite Foods</h2>
+		<ul>
+			<li>Apples </li>
+			<li>Pizza </li>
+			<li>Crab </li>
+			<li>Chocolate Cake</li>
+		</ul>
+	</div>	
+	<div>
+		<h2>Achivements</h2>
+		<label for="file">Progress in this course(100%):</label>
+		<progress id="file" value="100" max="100">  </progress>
+		<br>
+		<label for="">Progress in the Specialization capstone (20%)</label>
+		<progress value="20" max="1000"></progress>
+		<br>
+		<label for="">Progress in life goals (67%)</label>
+		<progress value="67" max="100"></progress>
+	</div>
+	<div>
+		<h2>More About Me</h2>
+		<details>
+			<summary>
+				Childhood
+			</summary>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium atque molestias, odio exercitationem vitae quae recusandae aut dolores aliquid optio ex nihil accusantium rem ipsam ipsum illo ducimus doloribus a?</p>
+		</details>
+	</div>
 	</main>
-	
-	<footer id="footer">
-		<p> This is more interseting footer</p>
+	<br>
+	<footer>
+		<p>My exercise during the course</p>
+		<a href="practice.html"> Exercise</a>
 	</footer>
 </body>
 </html>
